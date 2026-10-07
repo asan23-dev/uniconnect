@@ -1,16 +1,60 @@
-# React + Vite
+UniConnect — University Community Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+UniConnect is a university community platform designed to help students connect, communicate, and participate in campus life from one place.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Students will be able to discover and join communities, find events, ask questions, share academic resources, find study partners, create announcements, and connect with other students based on their interests.
 
-## React Compiler
+Planned Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Student communities
+- Campus events
+- Questions and discussions
+- Academic resource sharing
+- Study partner discovery
+- Announcements and posts
+- Student profiles
+- Interest-based connections
 
-## Expanding the ESLint configuration
+Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- Vite
+- React Router
+- Context API
+- useReducer
+- Tailwind CSS
+
+React Concepts
+
+The project will demonstrate:
+
+- Reusable components
+- Props
+- State management
+- Effects
+- Forms
+- Routing
+- Context API
+- useReducer
+- Tailwind CSS
+
+Getting Started
+
+Installation
+
+Clone the repository and install the dependencies:
+
+npm install
+
+Run the development server
+
+npm run dev
+
+The application will then be available at the local URL provided by Vite.
+
+Project Status
+
+Initial setup — project development has not yet started.
