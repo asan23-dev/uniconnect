@@ -1,0 +1,31 @@
+export const initialCommunities = [
+  {id:1,name:'Tech & Computing',category:'Technology',description:'Build, learn and explore the world of technology with fellow innovators.',members:1248,icon:'💻',color:'lavender',tags:['Programming','Career','Projects'],joined:true},
+  {id:2,name:'Psychology Circle',category:'Academics',description:'A welcoming space for curious minds interested in human behaviour.',members:864,icon:'🧠',color:'peach',tags:['Research','Discussion','Mental health'],joined:true},
+  {id:3,name:'Creative Arts Club',category:'Arts & Culture',description:'Share your art, find inspiration and collaborate on creative projects.',members:532,icon:'🎨',color:'pink',tags:['Design','Music','Writing'],joined:false},
+  {id:4,name:'Chess Society',category:'Sports',description:'Play, practise and sharpen your strategy with players of every level.',members:397,icon:'♟️',color:'mint',tags:['Strategy','Tournaments'],joined:true},
+  {id:5,name:'Entrepreneurship Hub',category:'Career',description:'Turn ideas into action. Meet founders, builders and ambitious students.',members:716,icon:'🚀',color:'yellow',tags:['Startups','Business','Ideas'],joined:false},
+  {id:6,name:'Music & Sound',category:'Arts & Culture',description:'For musicians, producers and anyone who loves discovering new sounds.',members:621,icon:'🎧',color:'blue',tags:['Production','Guitar','Events'],joined:false},
+  {id:7,name:'Sports Central',category:'Sports',description:'Find teammates, organise games and keep campus moving.',members:943,icon:'⚽',color:'mint',tags:['Football','Fitness','Basketball'],joined:false},
+  {id:8,name:'Queer & Allied',category:'Identity & Support',description:'A respectful community for connection, support and shared experiences.',members:284,icon:'🌈',color:'pink',tags:['Support','Community'],joined:false}
+]
+export const initialPosts = [
+  {id:101,author:'Amara Okafor',handle:'@amara.o',avatar:'AO',community:'Psychology Circle',time:'18 min ago',type:'question',text:'What resources would you recommend for understanding cognitive behavioural approaches? I’m looking for beginner-friendly books and articles before our next seminar.',likes:24,comments:[{id:1,author:'Daniel K.',text:'Feeling Good by David Burns is a great starting point!'}],liked:false},
+  {id:102,author:'Tobi Adebayo',handle:'@tobi.codes',avatar:'TA',community:'Tech & Computing',time:'1 hr ago',type:'resource',text:'Just published my notes on getting started with React hooks. I included small examples for useState, useEffect and custom hooks. Hope this helps someone getting started!',likes:38,comments:[{id:2,author:'Zara M.',text:'This is so helpful, thank you for sharing.'},{id:3,author:'Kemi Esther',text:'Saving this for later!'}],liked:true},
+  {id:103,author:'Zara Mohammed',handle:'@zara.m',avatar:'ZM',community:'Creative Arts Club',time:'3 hrs ago',type:'discussion',text:'Creative people: how do you stay inspired when you have deadlines piling up? I’m trying to find a better balance between coursework and personal projects.',likes:17,comments:[],liked:false},
+  {id:104,author:'Daniel Kingsley',handle:'@dan.k',avatar:'DK',community:'Chess Society',time:'Yesterday',type:'announcement',text:'Friendly reminder: our weekly chess meetup is happening this Friday at the student centre. Beginners are very welcome. Bring a friend!',likes:31,comments:[{id:4,author:'Amara O.',text:'I’ll be there!'}],liked:false}
+]
+export const initialEvents = [
+  {id:1,title:'Campus Tech Meetup',date:'Nov 12, 2026',day:'12',month:'NOV',time:'3:00 PM – 5:00 PM',place:'Innovation Hub, Block C',community:'Tech & Computing',attendees:86,category:'Technology',color:'lavender',description:'An afternoon of lightning talks, networking and practical conversations about building technology.'},
+  {id:2,title:'Psychology Research Forum',date:'Nov 14, 2026',day:'14',month:'NOV',time:'11:00 AM – 1:00 PM',place:'Faculty Seminar Room',community:'Psychology Circle',attendees:42,category:'Academics',color:'peach',description:'Share ideas, discuss current research and connect with students interested in psychology.'},
+  {id:3,title:'Inter-faculty Chess Challenge',date:'Nov 18, 2026',day:'18',month:'NOV',time:'2:00 PM – 6:00 PM',place:'Main Library Courtyard',community:'Chess Society',attendees:64,category:'Sports',color:'mint',description:'A friendly campus chess tournament. Players of all experience levels are welcome.'},
+  {id:4,title:'Student Creators Showcase',date:'Nov 21, 2026',day:'21',month:'NOV',time:'4:00 PM – 7:00 PM',place:'Arts Theatre',community:'Creative Arts Club',attendees:109,category:'Arts & Culture',color:'pink',description:'An evening celebrating student creativity across art, music, photography and design.'}
+]
+export const students = [
+  {id:1,name:'Amara Okafor',course:'Psychology',level:'300 Level',interests:['Psychology','Reading','Research'],avatar:'AO',bio:'Curious about people, behaviour and the little things that make us human.',online:true},
+  {id:2,name:'Tobi Adebayo',course:'Computer Science',level:'400 Level',interests:['React','Web development','Chess'],avatar:'TA',bio:'Frontend developer learning something new every day.',online:true},
+  {id:3,name:'Zara Mohammed',course:'Fine Arts',level:'200 Level',interests:['Design','Music','Photography'],avatar:'ZM',bio:'Making things, collecting ideas and finding inspiration everywhere.',online:false},
+  {id:4,name:'Daniel Kingsley',course:'Mathematics',level:'300 Level',interests:['Chess','Data science','Football'],avatar:'DK',bio:'Always up for a chess match or a good problem to solve.',online:true},
+  {id:5,name:'Ifeoma Nwosu',course:'Biochemistry',level:'400 Level',interests:['Research','Reading','Volunteering'],avatar:'IN',bio:'Science enthusiast and community volunteer.',online:false},
+  {id:6,name:'Malik Bello',course:'Engineering',level:'300 Level',interests:['Robotics','Programming','Football'],avatar:'MB',bio:'Building, breaking and learning how things work.',online:true}
+]
+export const currentStudent = {name:'Kemi Esther',course:'Psychology',level:'400 Level',university:'University of Ibadan',avatar:'KE',bio:'Psychology student, curious learner and community builder.',interests:['Psychology','Technology','Music','Chess']}
